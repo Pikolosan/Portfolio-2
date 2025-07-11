@@ -44,7 +44,7 @@ export default function Portfolio() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
+    <div className="min-h-screen bg-transparent transition-colors duration-300">
       <ThreeBackground />
       <Navigation />
       <main>

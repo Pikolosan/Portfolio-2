@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import Portfolio from "@/pages/portfolio";
 import NotFound from "@/pages/not-found";
+import { ThreeBackground } from "@/components/three-background";
 
 function Router() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
         <TooltipProvider>
+          <ThreeBackground />
           <Toaster />
           <Router />
         </TooltipProvider>
